@@ -11,6 +11,7 @@ public abstract class Car {
         this.speed = speed;
         this.price = price;
     }
+    //laver en abstract class skal metoderne kun have headers og ingen body.
     public abstract String sound();
 
 }
